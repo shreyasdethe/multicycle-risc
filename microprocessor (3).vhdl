@@ -14,17 +14,7 @@ end microprocessor;
 
 architecture microprocessor_behave of microprocessor is
 --------------------------------------------------------
---component dflipflop is
---port (d_in: in std_logic_vector(15 downto 0);
---	en, CLK: in std_logic;
---	d_out: out std_logic_vector(15 downto 0));
---end component;
 
---component dbitflipflop is
---port (d_in: in std_logic;
---	en, CLK: in std_logic;
---	d_out: out std_logic);
---end component;
 
 component alu is
 port(alu_in1, alu_in2: in std_logic_vector(15 downto 0);
